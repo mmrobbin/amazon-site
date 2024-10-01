@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto p-5 flex justify-between items-center">
+            <h1 class="text-xl font-bold"><a href="https://www.amazon.com/" class="text-gray-600 hover:text-blue-500">Amazon</a></h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="https://www.amazon.com/" class="text-gray-600 hover:text-blue-500">Home</a></li>
+                    <li><a href="https://www.amazon.com/s?i=specialty-aps&bbn=16225007011&rh=n%3A16225007011%2Cn%3A13896617011&ref=nav_em__nav_desktop_sa_intl_computers_tablets_0_2_6_4" class="text-gray-600 hover:text-blue-500">Computer & Tablets</a></li>
+                    <li><a href="https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer" class="text-gray-600 hover:text-blue-500">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Product Section -->
+    <section class="container mx-auto p-5 flex flex-col md:flex-row mt-5">
+        <!-- Product Image -->
+        <div class="md:w-1/2 mb-5 md:mb-0">
+            <a href="https://www.amazon.com/Lenovo-Tab-M9-2023-Battery-Included/dp/B0BYPHZWZK/ref=pd_rhf_gw_s_pd_sbs_rvi_d_sccl_1_1/142-2392649-4011862?pd_rd_w=JidJ4&content-id=amzn1.sym.46e2be74-be72-4d3f-86e1-1de279690c4e&pf_rd_p=46e2be74-be72-4d3f-86e1-1de279690c4e&pf_rd_r=C9NCK3HQRFVVQ2RGGP70&pd_rd_wg=t8Sb1&pd_rd_r=df56255d-f586-474d-afff-4eb908516077&pd_rd_i=B0BYPHZWZK&psc=1"><img src="product image.jpg" alt="Product Image" class="rounded-lg shadow-lg"></a>
+            
+        </div>
+        
+        <!-- Product Details -->
+        <div class="md:w-1/2 md:pl-10">
+            <h2 class="text-2xl font-bold mb-2">Lenovo Tab M9-2023 - Tablet - Long Battery Life - 9" HD</h2>
+            <p class="text-gray-700 mb-4">Chill for a longer time: Binge, chill and relax with a 5100 mAh battery that offers up to 13 hours of video playback
+                Immersive Cinematics: Watch your favorite movies and shows on a 9” HD display for a stunningly mobile cinematic experience
+                Search what you see with Google Lens: Translate text, get help with homework, or quickly identify products, plants and places with Google Lens
+                Keep your security on lock: Keep your tablet’s security under lock and key with facial recognition for safe and convenient log-in
+                Power Play: With a powerful MTK G80 Octa Core processor and up to 32GB of storage, gaming and browsing is smooth and fun.</p>
+            <span class="text-xl font-semibold text-blue-600 mb-4">$137.77</span>
+            <div class="mt-4">
+                <label for="quantity" class="block text-gray-700 mb-1">Quantity:</label>
+                <select id="quantity" class="border border-gray-300 rounded p-2 mb-4">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <button class="bg-blue-600 text-white rounded px-4 py-2 hover:bg-blue-700">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+   
+    <section>
+        <h1 style="font-size: xx-large; text-align: center;">Warranty & Support</h1>
+        <p style="padding: 20px;">Amazon.com Return Policy:You may return any new computer purchased from Amazon.com that is "dead on arrival," arrives in damaged condition, or is still in unopened boxes, for a full refund within 30 days of purchase. Amazon.com reserves the right to test "dead on arrival" returns and impose a customer fee equal to 15 percent of the product sales price if the customer misrepresents the condition of the product. Any returned computer that is damaged through customer misuse, is missing parts, or is in unsellable condition due to customer tampering will result in the customer being charged a higher restocking fee based on the condition of the product. Amazon.com will not accept returns of any desktop or notebook computer more than 30 days after you receive the shipment. New, used, and refurbished products purchased from Marketplace vendors are subject to the returns policy of the individual vendor.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white shadow mt-10">
+        <div class="container mx-auto p-5 text-center">
+            <p class="text-gray-600">&copy; 2024 Amazon. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
